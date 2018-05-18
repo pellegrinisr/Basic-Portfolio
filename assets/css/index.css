@@ -1,0 +1,70 @@
+/*stylesheet for index.html */
+
+/*CSS FOR MAIN SECTION*/
+main {
+	background-color: lightgray;
+	padding-bottom: 4em;
+	padding-top: 4em;
+}
+
+article {
+	
+	background-color: white;
+	margin-right: 4em;
+	margin-left: 4em;
+	margin-bottom: 4em;
+	position: relative;
+	width: 960px;
+}
+
+article h2 {
+	font-size: 3em;
+}
+
+
+/*CSS FOR HEADER SECTION*/
+header {
+	background-color: white;
+}
+
+header h1 {
+	font-size: 5em;
+	background-color: #4aaaa5;
+	width: 650px;
+	color: white;
+
+}
+
+nav {
+	position: absolute;
+	top: 10%;	
+	right: 40%;
+}
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+
+/*CSS FOR MAIN SECTION*/
+main img {
+	width: 17em;
+	float: left;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+}
+
+main p {
+	font-size: 2em;
+}
+
+@media only screen and (max-width: 960px) {
+	nav {
+		position: absolute;
+		top: 30%;
+	}
+}
