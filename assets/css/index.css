@@ -1,5 +1,18 @@
 /*stylesheet for index.html */
 
+/*CSS FOR HEADER SECTION*/
+header {
+	background-color: white;
+}
+
+header h1 {
+	font-size: 4em;
+	background-color: #4aaaa5;
+	width: 525px;
+	color: white;
+	margin-bottom: 0;
+	border: 1px solid #cccccc;
+}
 /*CSS FOR MAIN SECTION*/
 main {
 	background-color: lightgray;
@@ -9,50 +22,6 @@ main {
 	
 }
 
-article {
-	margin-left: auto;
-	margin-right: auto;
-	background-color: white;
-	margin-bottom: 4em;
-	width: 960px;
-}
-
-article h2 {
-	font-size: 3em;
-	color: #4aaaa5;
-}
-
-/*CSS FOR HEADER SECTION*/
-header {
-	background-color: white;
-}
-
-header h1 {
-	font-size: 5em;
-	background-color: #4aaaa5;
-	width: 650px;
-	color: white;
-	margin-bottom: 0;
-	
-
-}
-
-nav {
-	position: absolute;
-	top: 10%;	
-	right: 10%;  
-	float: rigth;
-}
-nav ul {
-	list-style: none;
-}
-
-nav li {
-	display: inline;
-}
-
-
-/*CSS FOR MAIN SECTION*/
 main img {
 	width: 17em;
 	float: left;
@@ -62,10 +31,44 @@ main img {
 }
 
 main p {
-	font-size: 2em;
+	font-size: 1.5em;
 }
+
+/*CSS for article */
+article {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	margin-bottom: 4em;
+	width: 960px;
+	padding: .5em;
+	border: 1px solid #dddddd;
+}
+
+article h2 {
+	font-size: 2em;
+	color: #4aaaa5;
+}
+
+/*CSS for NAV Section*/
+nav {
+	position: absolute;
+	top: 10%;	
+	right: 10%; 
+	float: rigth;  
+	
+}
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+/*CSS for footer*/
 footer {
-	background-color: darkgray;
+	background-color: #666666;
 	height: 5%;
 	padding-top: 10px;
 }
@@ -73,13 +76,16 @@ footer p {
 	text-align: center;
 	height: auto;
 }
+
 #footerColor {
 	height: 1em;
 	background-color: #4aaaa5;
 	 
 }
-@media only screen and (max-width: 960px) {
-	nav {
-		float: right;
-	}
+hr {
+	color: #777777;
 }
+p {
+	color: #777777;
+}
+
