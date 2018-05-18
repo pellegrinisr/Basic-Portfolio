@@ -5,22 +5,22 @@ main {
 	background-color: lightgray;
 	padding-bottom: 4em;
 	padding-top: 4em;
+	position: relative;
+	
 }
 
 article {
-	
+	margin-left: auto;
+	margin-right: auto;
 	background-color: white;
-	margin-right: 4em;
-	margin-left: 4em;
 	margin-bottom: 4em;
-	position: relative;
 	width: 960px;
 }
 
 article h2 {
 	font-size: 3em;
+	color: #4aaaa5;
 }
-
 
 /*CSS FOR HEADER SECTION*/
 header {
@@ -32,13 +32,16 @@ header h1 {
 	background-color: #4aaaa5;
 	width: 650px;
 	color: white;
+	margin-bottom: 0;
+	
 
 }
 
 nav {
 	position: absolute;
 	top: 10%;	
-	right: 40%;
+	right: 10%;  
+	float: rigth;
 }
 nav ul {
 	list-style: none;
@@ -61,10 +64,22 @@ main img {
 main p {
 	font-size: 2em;
 }
-
+footer {
+	background-color: darkgray;
+	height: 5%;
+	padding-top: 10px;
+}
+footer p {
+	text-align: center;
+	height: auto;
+}
+#footerColor {
+	height: 1em;
+	background-color: #4aaaa5;
+	 
+}
 @media only screen and (max-width: 960px) {
 	nav {
-		position: absolute;
-		top: 30%;
+		float: right;
 	}
 }
