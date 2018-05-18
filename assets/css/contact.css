@@ -5,11 +5,14 @@ form {
 }
 textarea {
     border-style: insert;
-    width: 40em;
+    width: 49em;
     font-size: .75em;
 }
 input {
     height: 30px;
     width: 40em;
     font-size: .75em;
+}
+article {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
