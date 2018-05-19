@@ -17,8 +17,11 @@ article img {
 	float: left;
 }
 #react {
+	position: relative;
 	width: 25%;
 	float: left;
+	top: 5%;
+	left: 1%;
 }
 #html5 {
 
@@ -34,13 +37,37 @@ article img {
 	left: 35%;
 	width: 25%;	
 }
-#nodeLabel {
+article div {
 	position: absolute;
+<<<<<<< HEAD
 	top: 51%;
 	left: 8%;
+=======
+>>>>>>> 248c06292069fe4b8d30061b687e35c6982c62be
 	background-color: #4aaaa5;
-	height: 2em;
 	text-align: center;
+<<<<<<< HEAD
 	line-height: 1.8em;
 	width: 200px;
+=======
+	width: 10em;
+	line-height: 1.9em;	
+}
+#nodeLabel {
+	top: 49%;
+	left: 7%;
+}
+#reactLabel {
+	top: 47%;
+	left: 40.5%;
+}
+#html5Label {
+	left: 7%;
+	top: 90.5%;
+}
+#css3Label {
+	left: 41.25%;
+	top: 90.5%;
+	
+>>>>>>> 248c06292069fe4b8d30061b687e35c6982c62be
 }
