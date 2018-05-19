@@ -2,7 +2,7 @@ article {
 	position: relative;	
 	height: 850px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	color: white;
 }
 article img {
@@ -39,17 +39,8 @@ article img {
 }
 article div {
 	position: absolute;
-<<<<<<< HEAD
-	top: 51%;
-	left: 8%;
-=======
->>>>>>> 248c06292069fe4b8d30061b687e35c6982c62be
 	background-color: #4aaaa5;
 	text-align: center;
-<<<<<<< HEAD
-	line-height: 1.8em;
-	width: 200px;
-=======
 	width: 10em;
 	line-height: 1.9em;	
 }
@@ -69,5 +60,4 @@ article div {
 	left: 41.25%;
 	top: 90.5%;
 	
->>>>>>> 248c06292069fe4b8d30061b687e35c6982c62be
 }
