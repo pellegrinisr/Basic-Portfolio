@@ -2,7 +2,7 @@ article {
 	position: relative;	
 	height: 850px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.5em;
 	color: white;
 }
 article img {
@@ -36,10 +36,11 @@ article img {
 }
 #nodeLabel {
 	position: absolute;
-	top: 50%;
-	left: 10%;
+	top: 51%;
+	left: 8%;
 	background-color: #4aaaa5;
 	height: 2em;
 	text-align: center;
-	
+	line-height: 1.8em;
+	width: 200px;
 }
