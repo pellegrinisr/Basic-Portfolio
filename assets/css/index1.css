@@ -23,7 +23,7 @@ main {
 	position: relative;
 }
 
-article img {
+main img {
 	width: 17em;
 	float: left;
 	padding-right: 1em;
@@ -58,7 +58,7 @@ nav {
 	position: absolute;
 	top: 10%;	
 	right: 10%; 
-	float: rigth;  
+	float: right;  
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	
 }
@@ -91,11 +91,11 @@ hr {
 }
 p {
 	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
 }	
 
 /*Media queries*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 750px) {
     header h1 {
         font-size: 1.5em;
     }
@@ -104,12 +104,5 @@ p {
         clear: both;
         z-index: 50;
         
-	}
-}
-
-@media screen and (max-width: 450px) {
-		
-	article img {
-		width: 10%;
-	}
+    }
 }
