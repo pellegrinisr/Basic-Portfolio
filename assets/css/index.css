@@ -94,6 +94,16 @@ p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }	
 
+.clearfix {
+	overflow: auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
 /*Media queries*/
 @media screen and (max-width: 1000px) {
     header h1 {
@@ -107,7 +117,7 @@ p {
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
 		
 	article img {
 		width: 10%;

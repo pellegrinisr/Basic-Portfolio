@@ -5,12 +5,12 @@ form {
 }
 textarea {
     border-style: insert;
-    width: 37em;
+    width: 80%;
     font-size: 1em;
 }
 input {
-    height: 30px;
-    width: 40em;
+    height: 1%;
+    width: 80%;
     font-size: .75em;
 }
 article {
