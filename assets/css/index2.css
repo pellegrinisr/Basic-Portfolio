@@ -6,21 +6,14 @@ header {
 }
 
 header h1 {
-	float: left;
 	font-size: 4em;
 	background-color: #4aaaa5;
 	width: 45%;
 	color: white;
+	margin-bottom: 0;
 	border: 1px solid #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
-	position: relative;
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
-	-webkit-margin-start: 0;
-	-webkit-margin-end: 0;
-	
-	
 }
 /*CSS FOR MAIN SECTION*/
 main {
@@ -62,11 +55,11 @@ article h2 {
 
 /*CSS for NAV Section*/
 nav {
-	position: relative;
+	position: absolute;
+	top: 10%;	
 	right: 10%; 
 	float: right;  
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	z-index: 100;
 	
 }
 nav ul {
@@ -101,83 +94,22 @@ p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }	
 
-.clearfix {
-	overflow: auto;
-}
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
 /*Media queries*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
     header h1 {
-		font-size: 1.5em;
-		float: left;
-
+        font-size: 1.5em;
     }
     
     nav {
         clear: both;
-		z-index: 50;
-		float: left;
-		padding-left: 10%;
+        z-index: 50;
         
 	}
-	nav {
-		clear: both;
-		float: right;
-		position: relative;
-		padding-left: 3%;	
-	}
-	article img {
-		clear: both;
-		position: relative;
-		float: left;
-	}
-	article {
-		width: 100%;
-	}
-	article p {
-		clear: both;
-	}
-	
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 		
-	nav {
-		clear: both;
-		float: left;
-		position: relative;
-		padding-left: 3%;	
-	}
 	article img {
-		clear: both;
-		position: relative;
-		float: left;
-	}
-	article {
-		width: 100%;
-	}
-	article p {
-		clear: both;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	article {
-		width: 100%;
-
-	}
-	article img {
-		clear: both;
-		position: relative;
-		float: left;
-	}
-	article p {
-		clear: both;
+		width: 10%;
 	}
 }
