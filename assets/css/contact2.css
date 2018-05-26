@@ -16,3 +16,15 @@ input {
 article {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+ 
+@media screen and (max-width: 1000px) {
+    article {
+        margin: 0;
+        width: 100%;
+ 
+        position: relative;
+    }
+    main { 
+        width: 100%;
+    }
+}

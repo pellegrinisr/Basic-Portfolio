@@ -1,3 +1,15 @@
+header {
+    padding-top: 2em;
+}
+header h1 {
+    font-family: 'Georiga', serif;
+    font-weight: bold;
+    margin-left: .7%;
+}
+main {
+    margin-left: .7%;
+    margin-right: .7%;
+}
 article {
 	position: relative;	
 	height: 850px;
@@ -8,31 +20,34 @@ article {
 article img {
 	display: block;
 	background-color: lightgray;
-	margin: 1em;
-	
+	margin: 1em;	
+}
+nav {
+    z-index: 50;
+    top: 9%;
 }
 #node {
-	position: relative;
+	position: absolute;
 	width: 25%;
 	float: left;
 }
 #react {
-	position: relative;
+	position: absolute;
 	width: 25%;
 	float: left;
-	top: 5%;
-	left: 1%;
+	top: 15%;
+	left: 35%;
 }
 #html5 {
 
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	width: 25%;
 	float: left;
 }
 #css3 {
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	float: left;
 	left: 35%;
 	width: 25%;	
@@ -45,19 +60,67 @@ article div {
 	line-height: 1.9em;	
 }
 #nodeLabel {
-	top: 49%;
-	left: 7%;
+	top: 42%;
+    left: 7%;
+    position: absolute;
 }
 #reactLabel {
-	top: 47%;
-	left: 40.5%;
+	top: 42%;
+    left: 40.5%;
+    position: absolute;
 }
 #html5Label {
 	left: 7%;
-	top: 90.5%;
+    top: 80%;
+    position: absolute;
 }
 #css3Label {
 	left: 41.25%;
-	top: 90.5%;
-	
+	top: 80%;
+	position: absolute;
+}
+#footerColor {
+    margin-left: .7%;
+    margin-right: .7%;
+}
+footer {
+    margin-left: .7%;
+    margin-right: .7%
+}
+
+@media screen and (max-width: 1000px) {
+    header h1 {
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        float: left;
+        font-weight: bold;
+        margin: 0;
+    }
+    header {
+        padding-top: .5em;
+    }
+    nav {
+        top: 0;
+        padding-top: 1em;
+    }
+    main {
+        width: 100%;
+        margin: 0;
+    }
+    article {
+        width: 100%;
+        margin: 0;
+        
+    }
+    #footerColor {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    footer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
 }

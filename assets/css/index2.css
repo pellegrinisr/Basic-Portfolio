@@ -1,6 +1,15 @@
 /*stylesheet for index.html */
 
 /*CSS FOR HEADER SECTION*/
+.clearfix {
+	overflow: auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
 header {
 	background-color: white;
 }
@@ -12,7 +21,7 @@ header h1 {
 	color: white;
 	margin-bottom: 0;
 	border: 1px solid #cccccc;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, serif;
 	text-align: center;
 }
 /*CSS FOR MAIN SECTION*/
@@ -58,7 +67,7 @@ nav {
 	position: absolute;
 	top: 10%;	
 	right: 10%; 
-	float: right;  
+	float: left;  
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	
 }
@@ -97,19 +106,41 @@ p {
 /*Media queries*/
 @media screen and (max-width: 1000px) {
     header h1 {
-        font-size: 1.5em;
+		font-size: 1.5em;
+		float: left;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        float: left;
     }
-    
+    main {
+        width: 99%;
+        margin: 0;
+        position: relative;
+    }
     nav {
         clear: both;
-        z-index: 50;
-        
+        float: left;
+        padding-top: .25em;
+        top: 0;
 	}
-}
-
-@media screen and (max-width: 500px) {
-		
+    
 	article img {
-		width: 10%;
+		clear: both;
+		position: relative;
+		float: left;
 	}
+	article {
+
+        width: 100%;
+        padding: 0;
+        
+    }
+    
+	article p {
+        clear: both;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: .75em;
+	}
+	
 }
